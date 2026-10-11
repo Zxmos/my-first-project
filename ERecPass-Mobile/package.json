@@ -1,0 +1,22 @@
+{
+  "name": "erecpass-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ERecPass Capacitor Android/iOS project",
+  "scripts": {
+    "start": "vite --host 0.0.0.0 www",
+    "cap:sync": "cap sync",
+    "android": "cap sync android && cap open android",
+    "ios": "cap sync ios && cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.6.9",
+    "@capacitor/core": "^7.4.3",
+    "@supabase/supabase-js": "^2.57.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "typescript": "^7.0.2",
+    "vite": "^6.3.5"
+  }
+}
